@@ -31,7 +31,10 @@
                 "output": "assets"
               }
             ],
-            "styles": ["src/global.scss", "src/theme/variables.scss"],
+            "styles": ["src/global.scss", "src/theme/variables.scss",
+          "node_modules/@fortawesome/fontawesome-free/css/all.css"
+          
+          ],
             "scripts": []
           },
           "configurations": {
@@ -126,7 +129,10 @@
     }
   },
   "cli": {
-    "schematicCollections": ["@ionic/angular-toolkit"]
+    "schematicCollections": [
+      "@ionic/angular-toolkit"
+    ],
+    "analytics": "bd6f2209-dacd-4f1c-adea-25e2697dcfd3"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

@@ -6,22 +6,36 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  background: linear-gradient(135deg, #a29bfe, #74b9ff); /* Degradado bonito */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  color: #fff; /* Texto en blanco */
 }
 
 #container strong {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffeaa7; /* Amarillo pastel */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* Sombra al texto */
 }
 
 #container p {
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
-
-  margin: 0;
+  color: #dfe6e9; /* Gris claro */
+  margin: 10px 0;
 }
 
 #container a {
   text-decoration: none;
+  color: #00cec9; /* Verde azulado */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#container a:hover {
+  color: #55efc4; /* Verde más claro al pasar el mouse */
 }

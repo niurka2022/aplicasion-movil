@@ -1,13 +1,20 @@
 import { Component } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
+import { IonicModule } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent],
+  imports: [IonicModule]
 })
 export class HomePage {
-  constructor() {}
+  constructor(private router: Router) {}
+
+  // Navega a la página de lista
+  navigateTopage1(): void {
+    this.router.navigate(['/page1']);
+  }
+
+ 
 }

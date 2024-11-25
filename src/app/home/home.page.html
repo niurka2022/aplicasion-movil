@@ -1,20 +1,24 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Blank
+      Dulce Mundo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding" style="background-color: #fff5e6;">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+    <ion-toolbar color="warning">
+      <ion-title size="large">¡Explora el Mundo de los Postres!</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" style="text-align: center; margin-top: 20px;">
+    <ion-icon name="ice-cream" size="large" style="color: #ff9999;"></ion-icon>
+    <h1 style="font-weight: bold; color: #994d00;">Bienvenido al Paraíso Dulce 🍰</h1>
+    <p style="color: #804000; font-size: 16px;">Descubre las delicias más exquisitas y aprende sobre el arte de la repostería.</p>
+    <ion-button expand="block" color="tertiary" (click)="navigateTopage1()">
+      ¡Descubre nuestros postres!
+    </ion-button>
   </div>
 </ion-content>

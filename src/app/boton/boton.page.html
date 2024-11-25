@@ -1,0 +1,88 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title">Catálogo de Postres</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="desserts-content" style="background-color: #fff5e6;">
+  <ion-header collapse="condense">
+    <ion-toolbar color="warning">
+      <ion-title size="large">Nuestras Delicias</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Pasteles Artesanales 🎂</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Descubre nuestra selección de pasteles hechos con los mejores ingredientes.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Helados Gourmet 🍦</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Sabores únicos y cremosos para refrescar tu paladar.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Galletas y Brownies 🍪</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Horneados diariamente para tu deleite.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Postres Tradicionales 🍮</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Recetas clásicas con un toque moderno.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+    <ion-item>
+      <ion-icon name="star" color="warning" slot="start" size="large"></ion-icon>
+      <ion-label>
+        <h2>Especial del Día</h2>
+        <p>¡Pregunta por nuestro postre destacado!</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="gift" color="warning" slot="start" size="large"></ion-icon>
+      <ion-label>
+        <h2>Postres para Eventos</h2>
+        <p>Personaliza tu pedido para ocasiones especiales</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="warning">
+      <ion-icon name="cart"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

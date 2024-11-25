@@ -1,0 +1,37 @@
+.desserts-content {
+  ion-card {
+    margin: 10px;
+    border-radius: 15px;
+    
+    ion-card-header {
+      background-color: #fff9e6;
+    }
+    
+    ion-card-title {
+      font-size: 1.2em;
+      color: #994d00;
+    }
+    
+    ion-card-content {
+      color: #804000;
+    }
+  }
+  
+  ion-item {
+    --background: transparent;
+    margin: 10px 0;
+    
+    h2 {
+      color: #994d00;
+      font-weight: bold;
+    }
+    
+    p {
+      color: #804000;
+    }
+  }
+  
+  ion-fab-button {
+    --background: #ff9933;
+  }
+}
